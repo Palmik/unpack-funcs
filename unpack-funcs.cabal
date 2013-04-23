@@ -17,7 +17,7 @@ source-repository head
   location:          git@github.com:lowasser/unpack-funcs.git
 
 Library{
-build-Depends:    base < 5.0.0.0, template-haskell >= 2.5.0.0, bytestring >= 0.9.1.0,
+build-Depends:    base < 5.0.0.0, template-haskell >= 2.5.0.0 && < 2.8, bytestring >= 0.9.1.0,
                   vector >= 0.6, primitive >= 0.3, transformers
 ghc-options:
   -Wall -fno-warn-name-shadowing -fno-warn-orphans
